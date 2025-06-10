@@ -1,0 +1,15 @@
+# Go
+bin/
+*.exe
+*.log
+*.test
+*.out
+
+# Docker
+*.env
+docker-compose.override.yml
+
+# IDE/editor stuff
+.vscode/
+.idea/
+.DS_Store
