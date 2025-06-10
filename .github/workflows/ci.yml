@@ -42,5 +42,8 @@ jobs:
     - name: Push Docker image
       if: github.ref == 'refs/heads/main'
       run: |
-        docker tag yourusername/tracker-app yourusername/tracker-app:latest
-        docker push yourusername/tracker-app:latest
+        docker tag pranavv1251/tracker-app pranavv1251/tracker-app:latest
+        docker push pranavv1251/tracker-app:latest
+    
+    - name: Check Docker login
+      run: docker info
